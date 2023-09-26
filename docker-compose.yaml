@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dev:
+    image: ait-ml-2023-midterm:latest
+    build: 
+      context: .
+      dockerfile: .Dockerfile
+    volumes:
+      - ./code:/root/code 
+
+
